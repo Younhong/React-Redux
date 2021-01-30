@@ -1,5 +1,4 @@
-import { Component } from 'react';
-import AddNumber from '../components/AddNumber';
+import AddNumber from '../components/add/AddNumber';
 import { connect } from 'react-redux';
 
 function mapDispatchToProps(dispatch) {

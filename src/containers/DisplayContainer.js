@@ -1,4 +1,4 @@
-import DisplayNumber from '../components/DisplayNumber';
+import DisplayNumber from '../components/display/DisplayNumber';
 import { connect } from 'react-redux';
 
 function mapReduxStateToReactProps(state) {

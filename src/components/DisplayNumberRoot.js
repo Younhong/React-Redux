@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import DisplayContainer from '../containers/DisplayContainer';
 
 class DisplayNumberRoot extends Component {
@@ -6,7 +6,7 @@ class DisplayNumberRoot extends Component {
       return (
         <div>
           <h1>Display Number Root</h1>
-          <DisplayContainer />
+          <DisplayContainer unit="kg" />
         </div>
       )
     }
